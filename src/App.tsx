@@ -1,12 +1,20 @@
-import "./App.css";
+import { useState } from "react";
+import LeadsPage from "./features/leads/LeadsPage";
+import OpportunitiesPage from "./features/opportunities/OpportunitiesPage";
+import DashboardLayout from "./layouts/DashboardLayout";
 
 function App() {
+  const [tab, setTab] = useState<"Leads" | "Opportunities">("Leads");
   return (
-    <div className="flex h-screen items-center justify-center bg-gray-100">
-      <h1 className="text-3xl font-bold text-blue-600">
-        Mini Seller Console 🚀
-      </h1>
-    </div>
+    <DashboardLayout>
+      <div className="mb-4">
+        <button onClick={() => setTab("Leads")} className="mr-20">
+          Leads
+        </button>
+        <button onClick={() => setTab("Opportunities")}>Opportunities</button>
+      </div>
+      {tab === "Leads" ? <LeadsPage /> : <OpportunitiesPage />}
+    </DashboardLayout>
   );
 }
 

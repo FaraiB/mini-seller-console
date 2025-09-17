@@ -1,902 +1,902 @@
 [
   {
     "id": 1,
-    "name": "Maria Jackson",
-    "company": "Bennett and Sons",
-    "email": "harrisbrian@hotmail.com",
-    "source": "LinkedIn",
-    "score": 100,
+    "name": "Oscar Gomez",
+    "company": "TechNova",
+    "email": "oscar.gomez@technova.com",
+    "source": "Conference",
+    "score": 59,
     "status": "Qualified"
   },
   {
     "id": 2,
-    "name": "Benjamin Harmon",
-    "company": "Ramirez PLC",
-    "email": "debraschmidt@yahoo.com",
-    "source": "Cold Call",
-    "score": 70,
-    "status": "Qualified"
+    "name": "Alice Rossi",
+    "company": "MediCore",
+    "email": "alice.rossi@medicore.com",
+    "source": "Conference",
+    "score": 13,
+    "status": "New"
   },
   {
     "id": 3,
-    "name": "Timothy Beck",
-    "company": "Mills-Harper",
-    "email": "rachel58@hotmail.com",
+    "name": "Henry Rivera",
+    "company": "BioLife",
+    "email": "henry.rivera@biolife.com",
     "source": "Referral",
-    "score": 32,
-    "status": "Contacted"
-  },
-  {
-    "id": 4,
-    "name": "Nathan Jackson",
-    "company": "Oconnell-Hart",
-    "email": "gail45@newman.com",
-    "source": "Email Campaign",
-    "score": 55,
+    "score": 60,
     "status": "Disqualified"
   },
   {
+    "id": 4,
+    "name": "Felipe Rivera",
+    "company": "GreenWave",
+    "email": "felipe.rivera@greenwave.com",
+    "source": "Website",
+    "score": 64,
+    "status": "Converted"
+  },
+  {
     "id": 5,
-    "name": "Tina Russell",
-    "company": "Harris Group",
-    "email": "williamsonwilliam@adams-bauer.com",
-    "source": "Cold Call",
-    "score": 51,
+    "name": "Tara Laurent",
+    "company": "SkyLogix",
+    "email": "tara.laurent@skylogix.com",
+    "source": "Referral",
+    "score": 91,
     "status": "New"
   },
   {
     "id": 6,
-    "name": "Kristin Roberts",
-    "company": "Thomas and Sons",
-    "email": "meganrobertson@gmail.com",
-    "source": "LinkedIn",
-    "score": 91,
-    "status": "Contacted"
+    "name": "Karen Lee",
+    "company": "FinEdge",
+    "email": "karen.lee@finedge.com",
+    "source": "Conference",
+    "score": 93,
+    "status": "Qualified"
   },
   {
     "id": 7,
-    "name": "Taylor Barrett",
-    "company": "Davis, Davis and Casey",
-    "email": "christopher44@barker.com",
-    "source": "Conference",
-    "score": 83,
-    "status": "Disqualified"
+    "name": "Brian Zhang",
+    "company": "AutoDrive",
+    "email": "brian.zhang@autodrive.com",
+    "source": "Website",
+    "score": 6,
+    "status": "New"
   },
   {
     "id": 8,
-    "name": "Edward Watson",
-    "company": "Meadows Inc",
-    "email": "antoniowise@gmail.com",
-    "source": "Cold Call",
-    "score": 77,
-    "status": "New"
-  },
-  {
-    "id": 9,
-    "name": "Timothy York",
-    "company": "Washington, Roberts and Anderson",
-    "email": "dustin36@yahoo.com",
-    "source": "Conference",
-    "score": 52,
-    "status": "Disqualified"
-  },
-  {
-    "id": 10,
-    "name": "Betty Mills",
-    "company": "Allen Inc",
-    "email": "kathryn57@hardin.com",
-    "source": "LinkedIn",
-    "score": 89,
-    "status": "Contacted"
-  },
-  {
-    "id": 11,
-    "name": "Casey Werner",
-    "company": "Mitchell Group",
-    "email": "grosstodd@barajas.com",
-    "source": "Website",
-    "score": 90,
-    "status": "Disqualified"
-  },
-  {
-    "id": 12,
-    "name": "Edwin Acevedo",
-    "company": "Gonzales, Gray and Wood",
-    "email": "richard71@ward-williams.com",
-    "source": "Website",
-    "score": 80,
-    "status": "New"
-  },
-  {
-    "id": 13,
-    "name": "Krystal Harris",
-    "company": "Abbott-Sullivan",
-    "email": "jennifer29@king.net",
-    "source": "Conference",
-    "score": 94,
-    "status": "New"
-  },
-  {
-    "id": 14,
-    "name": "Vickie Anderson",
-    "company": "Huber and Sons",
-    "email": "stephaniecruz@lopez.org",
-    "source": "Cold Call",
-    "score": 58,
-    "status": "New"
-  },
-  {
-    "id": 15,
-    "name": "Abigail Erickson",
-    "company": "Key, Hernandez and Williams",
-    "email": "joshua01@yahoo.com",
-    "source": "Cold Call",
-    "score": 39,
-    "status": "Contacted"
-  },
-  {
-    "id": 16,
-    "name": "Jennifer Richardson",
-    "company": "Abbott-Garrett",
-    "email": "powelljustin@yahoo.com",
-    "source": "Cold Call",
-    "score": 47,
-    "status": "Contacted"
-  },
-  {
-    "id": 17,
-    "name": "Sarah Taylor",
-    "company": "Wood-Johnson",
-    "email": "victor20@gmail.com",
-    "source": "LinkedIn",
-    "score": 94,
-    "status": "Contacted"
-  },
-  {
-    "id": 18,
-    "name": "Richard Estrada",
-    "company": "Turner-Miller",
-    "email": "alittle@stephens-clark.com",
-    "source": "LinkedIn",
-    "score": 38,
-    "status": "Qualified"
-  },
-  {
-    "id": 19,
-    "name": "Monica Ellis",
-    "company": "Moreno, Smith and Vasquez",
-    "email": "campbelljennifer@ross.com",
-    "source": "LinkedIn",
-    "score": 31,
-    "status": "Contacted"
-  },
-  {
-    "id": 20,
-    "name": "Jason Richardson",
-    "company": "Nguyen Ltd",
-    "email": "jackhoward@yahoo.com",
-    "source": "Cold Call",
-    "score": 94,
-    "status": "New"
-  },
-  {
-    "id": 21,
-    "name": "Vanessa Henson",
-    "company": "Mcneil PLC",
-    "email": "catherine88@yahoo.com",
-    "source": "Email Campaign",
-    "score": 44,
-    "status": "Contacted"
-  },
-  {
-    "id": 22,
-    "name": "Alison David",
-    "company": "Pitts, Osborne and Gutierrez",
-    "email": "svasquez@rose.info",
-    "source": "Website",
-    "score": 54,
-    "status": "Disqualified"
-  },
-  {
-    "id": 23,
-    "name": "Sarah Jordan",
-    "company": "Miller PLC",
-    "email": "christina30@paul-rodriguez.com",
-    "source": "Cold Call",
-    "score": 87,
-    "status": "Disqualified"
-  },
-  {
-    "id": 24,
-    "name": "Logan Montgomery",
-    "company": "Phillips-Suarez",
-    "email": "nicholashughes@gmail.com",
-    "source": "Website",
-    "score": 59,
-    "status": "Contacted"
-  },
-  {
-    "id": 25,
-    "name": "Matthew Acosta",
-    "company": "Hill-Bender",
-    "email": "jeffreyfitzpatrick@yahoo.com",
-    "source": "Conference",
-    "score": 40,
-    "status": "New"
-  },
-  {
-    "id": 26,
-    "name": "Erica Thompson",
-    "company": "May Ltd",
-    "email": "vpatel@williams.com",
-    "source": "Conference",
-    "score": 89,
-    "status": "New"
-  },
-  {
-    "id": 27,
-    "name": "Ronald Chang",
-    "company": "Harvey, Brown and Rivera",
-    "email": "rhonda70@hotmail.com",
+    "name": "Maria Müller",
+    "company": "MedLink",
+    "email": "maria.müller@medlink.com",
     "source": "Referral",
-    "score": 37,
-    "status": "Qualified"
-  },
-  {
-    "id": 28,
-    "name": "Andrew Davis",
-    "company": "Foster Inc",
-    "email": "fmanning@gmail.com",
-    "source": "Conference",
-    "score": 75,
-    "status": "Contacted"
-  },
-  {
-    "id": 29,
-    "name": "Kimberly Harris",
-    "company": "Hammond Ltd",
-    "email": "charles44@baker.com",
-    "source": "LinkedIn",
-    "score": 77,
-    "status": "New"
-  },
-  {
-    "id": 30,
-    "name": "Todd Francis",
-    "company": "Turner-Ramirez",
-    "email": "nfletcher@gmail.com",
-    "source": "Website",
-    "score": 89,
-    "status": "Disqualified"
-  },
-  {
-    "id": 31,
-    "name": "Kari Freeman",
-    "company": "Barton-Lee",
-    "email": "owensashley@yahoo.com",
-    "source": "LinkedIn",
-    "score": 53,
-    "status": "Qualified"
-  },
-  {
-    "id": 32,
-    "name": "Shelia Edwards",
-    "company": "Swanson-Owen",
-    "email": "millervincent@yahoo.com",
-    "source": "LinkedIn",
-    "score": 94,
-    "status": "Disqualified"
-  },
-  {
-    "id": 33,
-    "name": "Michael Clark",
-    "company": "Long LLC",
-    "email": "david72@cochran-briggs.com",
-    "source": "LinkedIn",
-    "score": 42,
-    "status": "New"
-  },
-  {
-    "id": 34,
-    "name": "Derek Graham",
-    "company": "Campbell Ltd",
-    "email": "mark96@love.org",
-    "source": "Conference",
-    "score": 64,
-    "status": "Contacted"
-  },
-  {
-    "id": 35,
-    "name": "Jennifer Perez",
-    "company": "Johnson Group",
-    "email": "jennifer15@hotmail.com",
-    "source": "Referral",
-    "score": 44,
-    "status": "Contacted"
-  },
-  {
-    "id": 36,
-    "name": "Kristy Dixon",
-    "company": "Forbes-Owen",
-    "email": "adamrobinson@rojas.org",
-    "source": "Conference",
-    "score": 39,
-    "status": "New"
-  },
-  {
-    "id": 37,
-    "name": "Katie Brown",
-    "company": "Johnson, James and Dunn",
-    "email": "walshjohn@suarez.com",
-    "source": "Referral",
-    "score": 68,
-    "status": "Contacted"
-  },
-  {
-    "id": 38,
-    "name": "Nathaniel Miller",
-    "company": "Galloway-Medina",
-    "email": "martinezzachary@yahoo.com",
-    "source": "Referral",
-    "score": 76,
-    "status": "Contacted"
-  },
-  {
-    "id": 39,
-    "name": "Tara Young",
-    "company": "Wyatt-Hernandez",
-    "email": "donna18@gmail.com",
-    "source": "Cold Call",
-    "score": 54,
-    "status": "Qualified"
-  },
-  {
-    "id": 40,
-    "name": "Matthew Martin",
-    "company": "Edwards, Mendez and Lopez",
-    "email": "oscar73@armstrong.org",
-    "source": "LinkedIn",
-    "score": 40,
-    "status": "Disqualified"
-  },
-  {
-    "id": 41,
-    "name": "Janet Diaz",
-    "company": "Soto-Vargas",
-    "email": "jason17@hotmail.com",
-    "source": "Cold Call",
     "score": 67,
     "status": "New"
   },
   {
-    "id": 42,
-    "name": "Angela Spears",
-    "company": "Blankenship Inc",
-    "email": "hcarroll@hernandez.com",
-    "source": "Email Campaign",
-    "score": 56,
-    "status": "New"
+    "id": 9,
+    "name": "Henry Clark",
+    "company": "EduTech",
+    "email": "henry.clark@edutech.com",
+    "source": "Website",
+    "score": 29,
+    "status": "Disqualified"
   },
   {
-    "id": 43,
-    "name": "David Perry",
-    "company": "Bright and Sons",
-    "email": "bray@hotmail.com",
-    "source": "LinkedIn",
-    "score": 99,
-    "status": "New"
+    "id": 10,
+    "name": "Tara Laurent",
+    "company": "AutoDrive",
+    "email": "tara.laurent@autodrive.com",
+    "source": "Website",
+    "score": 19,
+    "status": "Qualified"
   },
   {
-    "id": 44,
-    "name": "Nicole Kennedy",
-    "company": "Conner-Crawford",
-    "email": "joseph84@yahoo.com",
+    "id": 11,
+    "name": "Quentin Duarte",
+    "company": "RoboWorks",
+    "email": "quentin.duarte@roboworks.com",
     "source": "Conference",
-    "score": 89,
+    "score": 58,
+    "status": "Disqualified"
+  },
+  {
+    "id": 12,
+    "name": "Alice Silva",
+    "company": "FinEdge",
+    "email": "alice.silva@finedge.com",
+    "source": "Referral",
+    "score": 18,
+    "status": "Qualified"
+  },
+  {
+    "id": 13,
+    "name": "James Clark",
+    "company": "SkyLogix",
+    "email": "james.clark@skylogix.com",
+    "source": "Referral",
+    "score": 17,
+    "status": "Contacted"
+  },
+  {
+    "id": 14,
+    "name": "Isabella Mendes",
+    "company": "FinTrack",
+    "email": "isabella.mendes@fintrack.com",
+    "source": "Cold Email",
+    "score": 6,
+    "status": "Qualified"
+  },
+  {
+    "id": 15,
+    "name": "Isabella Johnson",
+    "company": "BuildRight",
+    "email": "isabella.johnson@buildright.com",
+    "source": "LinkedIn",
+    "score": 21,
     "status": "New"
   },
   {
-    "id": 45,
-    "name": "Diana Duncan",
-    "company": "Glover, Collins and Byrd",
-    "email": "fgonzales@lucas.com",
-    "source": "Email Campaign",
-    "score": 30,
+    "id": 16,
+    "name": "Karen Müller",
+    "company": "GreenWave",
+    "email": "karen.müller@greenwave.com",
+    "source": "Conference",
+    "score": 36,
+    "status": "Converted"
+  },
+  {
+    "id": 17,
+    "name": "Oscar Silva",
+    "company": "CloudSphere",
+    "email": "oscar.silva@cloudsphere.com",
+    "source": "Referral",
+    "score": 10,
     "status": "Disqualified"
   },
   {
-    "id": 46,
-    "name": "Katherine Shaw",
-    "company": "Wu-Phillips",
-    "email": "lisa28@mckinney-brown.net",
-    "source": "Cold Call",
-    "score": 32,
+    "id": 18,
+    "name": "Rita Costa",
+    "company": "BuildRight",
+    "email": "rita.costa@buildright.com",
+    "source": "Conference",
+    "score": 16,
+    "status": "Disqualified"
+  },
+  {
+    "id": 19,
+    "name": "Samuel Wong",
+    "company": "BluePeak",
+    "email": "samuel.wong@bluepeak.com",
+    "source": "Conference",
+    "score": 3,
     "status": "Contacted"
   },
   {
-    "id": 47,
-    "name": "Jordan Hernandez",
-    "company": "Perez, George and Morrison",
-    "email": "esmith@yahoo.com",
-    "source": "Referral",
-    "score": 76,
+    "id": 20,
+    "name": "Felipe Laurent",
+    "company": "RoboWorks",
+    "email": "felipe.laurent@roboworks.com",
+    "source": "Website",
+    "score": 99,
     "status": "Disqualified"
   },
   {
-    "id": 48,
-    "name": "Mark Shelton",
-    "company": "Villegas-Holmes",
-    "email": "kimberlyenglish@carpenter.com",
-    "source": "LinkedIn",
-    "score": 75,
-    "status": "Contacted"
+    "id": 21,
+    "name": "Elena Mendes",
+    "company": "EduTech",
+    "email": "elena.mendes@edutech.com",
+    "source": "Referral",
+    "score": 43,
+    "status": "New"
   },
   {
-    "id": 49,
-    "name": "Michael Ramirez",
-    "company": "Reeves, Trevino and Miller",
-    "email": "campbellandrew@hotmail.com",
-    "source": "Cold Call",
-    "score": 47,
+    "id": 22,
+    "name": "Samuel Singh",
+    "company": "FinTrack",
+    "email": "samuel.singh@fintrack.com",
+    "source": "Website",
+    "score": 39,
     "status": "Disqualified"
   },
   {
-    "id": 50,
-    "name": "Kathryn Thomas",
-    "company": "Callahan LLC",
-    "email": "woodmichael@gmail.com",
-    "source": "Referral",
+    "id": 23,
+    "name": "Lucas Rivera",
+    "company": "SkyLogix",
+    "email": "lucas.rivera@skylogix.com",
+    "source": "Cold Email",
+    "score": 48,
+    "status": "Disqualified"
+  },
+  {
+    "id": 24,
+    "name": "Oscar Singh",
+    "company": "RoboWorks",
+    "email": "oscar.singh@roboworks.com",
+    "source": "Cold Email",
+    "score": 18,
+    "status": "Converted"
+  },
+  {
+    "id": 25,
+    "name": "Grace Petrov",
+    "company": "GreenWave",
+    "email": "grace.petrov@greenwave.com",
+    "source": "Conference",
     "score": 86,
     "status": "New"
   },
   {
-    "id": 51,
-    "name": "Joseph Martin",
-    "company": "Perez, Walker and Freeman",
-    "email": "paigejennings@gmail.com",
-    "source": "LinkedIn",
-    "score": 66,
+    "id": 26,
+    "name": "Tara Rivera",
+    "company": "SkyLogix",
+    "email": "tara.rivera@skylogix.com",
+    "source": "Cold Email",
+    "score": 48,
+    "status": "Converted"
+  },
+  {
+    "id": 27,
+    "name": "Tara Johnson",
+    "company": "SkyLogix",
+    "email": "tara.johnson@skylogix.com",
+    "source": "Conference",
+    "score": 1,
     "status": "Qualified"
   },
   {
-    "id": 52,
-    "name": "Joseph Sawyer",
-    "company": "Green and Sons",
-    "email": "hryan@richardson.org",
-    "source": "Email Campaign",
-    "score": 68,
+    "id": 28,
+    "name": "Paula Silva",
+    "company": "FinTrack",
+    "email": "paula.silva@fintrack.com",
+    "source": "Website",
+    "score": 39,
+    "status": "New"
+  },
+  {
+    "id": 29,
+    "name": "Isabella Rossi",
+    "company": "FinTrack",
+    "email": "isabella.rossi@fintrack.com",
+    "source": "LinkedIn",
+    "score": 19,
+    "status": "New"
+  },
+  {
+    "id": 30,
+    "name": "Tara Rivera",
+    "company": "AgroMax",
+    "email": "tara.rivera@agromax.com",
+    "source": "Website",
+    "score": 8,
+    "status": "Converted"
+  },
+  {
+    "id": 31,
+    "name": "James Rivera",
+    "company": "MedLink",
+    "email": "james.rivera@medlink.com",
+    "source": "Conference",
+    "score": 44,
+    "status": "New"
+  },
+  {
+    "id": 32,
+    "name": "Alice Clark",
+    "company": "SkyLogix",
+    "email": "alice.clark@skylogix.com",
+    "source": "LinkedIn",
+    "score": 95,
+    "status": "Qualified"
+  },
+  {
+    "id": 33,
+    "name": "Henry Wilson",
+    "company": "RoboWorks",
+    "email": "henry.wilson@roboworks.com",
+    "source": "Conference",
+    "score": 50,
     "status": "Contacted"
   },
   {
-    "id": 53,
-    "name": "Kelsey Burns",
-    "company": "Howell PLC",
-    "email": "crawfordjoseph@gmail.com",
-    "source": "Website",
-    "score": 100,
-    "status": "Qualified"
-  },
-  {
-    "id": 54,
-    "name": "Alexa Green",
-    "company": "Mcpherson LLC",
-    "email": "yprice@yahoo.com",
-    "source": "Conference",
-    "score": 37,
-    "status": "New"
-  },
-  {
-    "id": 55,
-    "name": "Tracy Carroll",
-    "company": "Osborne, Nelson and Fuller",
-    "email": "vkelley@hughes.com",
-    "source": "LinkedIn",
-    "score": 32,
-    "status": "Qualified"
-  },
-  {
-    "id": 56,
-    "name": "Pamela Ochoa",
-    "company": "Mullins, Boyer and Meyer",
-    "email": "qsmith@salas.com",
-    "source": "Conference",
-    "score": 34,
+    "id": 34,
+    "name": "Carla Brown",
+    "company": "FinEdge",
+    "email": "carla.brown@finedge.com",
+    "source": "Referral",
+    "score": 52,
     "status": "Disqualified"
   },
   {
-    "id": 57,
-    "name": "Philip Burton",
-    "company": "Johnson Group",
-    "email": "bbowen@yahoo.com",
+    "id": 35,
+    "name": "James Lee",
+    "company": "BioLife",
+    "email": "james.lee@biolife.com",
     "source": "Website",
-    "score": 95,
+    "score": 21,
     "status": "New"
   },
   {
-    "id": 58,
-    "name": "Hayley Green",
-    "company": "Gomez LLC",
-    "email": "joshuabutler@yahoo.com",
+    "id": 36,
+    "name": "Isabella Rossi",
+    "company": "EcoHome",
+    "email": "isabella.rossi@ecohome.com",
+    "source": "Referral",
+    "score": 70,
+    "status": "Converted"
+  },
+  {
+    "id": 37,
+    "name": "Carla Müller",
+    "company": "AutoDrive",
+    "email": "carla.müller@autodrive.com",
+    "source": "Referral",
+    "score": 84,
+    "status": "Qualified"
+  },
+  {
+    "id": 38,
+    "name": "Felipe Duarte",
+    "company": "GreenWave",
+    "email": "felipe.duarte@greenwave.com",
+    "source": "Website",
+    "score": 51,
+    "status": "Disqualified"
+  },
+  {
+    "id": 39,
+    "name": "Paula Müller",
+    "company": "RoboWorks",
+    "email": "paula.müller@roboworks.com",
     "source": "LinkedIn",
-    "score": 45,
+    "score": 90,
+    "status": "Contacted"
+  },
+  {
+    "id": 40,
+    "name": "Alice Singh",
+    "company": "AgriCore",
+    "email": "alice.singh@agricore.com",
+    "source": "Website",
+    "score": 14,
+    "status": "New"
+  },
+  {
+    "id": 41,
+    "name": "Nina Wilson",
+    "company": "BioLife",
+    "email": "nina.wilson@biolife.com",
+    "source": "Conference",
+    "score": 40,
+    "status": "Qualified"
+  },
+  {
+    "id": 42,
+    "name": "Samuel Johnson",
+    "company": "SkyLogix",
+    "email": "samuel.johnson@skylogix.com",
+    "source": "Website",
+    "score": 89,
+    "status": "Contacted"
+  },
+  {
+    "id": 43,
+    "name": "Rita Johnson",
+    "company": "EcoHome",
+    "email": "rita.johnson@ecohome.com",
+    "source": "Website",
+    "score": 62,
+    "status": "Disqualified"
+  },
+  {
+    "id": 44,
+    "name": "Samuel Lee",
+    "company": "SkyLogix",
+    "email": "samuel.lee@skylogix.com",
+    "source": "Conference",
+    "score": 72,
+    "status": "New"
+  },
+  {
+    "id": 45,
+    "name": "Rita Mendes",
+    "company": "SkyLogix",
+    "email": "rita.mendes@skylogix.com",
+    "source": "LinkedIn",
+    "score": 54,
+    "status": "Disqualified"
+  },
+  {
+    "id": 46,
+    "name": "Carla Laurent",
+    "company": "SkyLogix",
+    "email": "carla.laurent@skylogix.com",
+    "source": "Cold Email",
+    "score": 89,
+    "status": "Converted"
+  },
+  {
+    "id": 47,
+    "name": "Isabella Lee",
+    "company": "FinTrack",
+    "email": "isabella.lee@fintrack.com",
+    "source": "Website",
+    "score": 56,
+    "status": "Contacted"
+  },
+  {
+    "id": 48,
+    "name": "Grace Laurent",
+    "company": "AgroMax",
+    "email": "grace.laurent@agromax.com",
+    "source": "LinkedIn",
+    "score": 68,
+    "status": "New"
+  },
+  {
+    "id": 49,
+    "name": "Paula Duarte",
+    "company": "MediCore",
+    "email": "paula.duarte@medicore.com",
+    "source": "Conference",
+    "score": 21,
+    "status": "New"
+  },
+  {
+    "id": 50,
+    "name": "David Gomez",
+    "company": "FinEdge",
+    "email": "david.gomez@finedge.com",
+    "source": "Conference",
+    "score": 31,
+    "status": "New"
+  },
+  {
+    "id": 51,
+    "name": "Maria Zhang",
+    "company": "GreenWave",
+    "email": "maria.zhang@greenwave.com",
+    "source": "Website",
+    "score": 77,
+    "status": "Converted"
+  },
+  {
+    "id": 52,
+    "name": "Rita Rivera",
+    "company": "SkyLogix",
+    "email": "rita.rivera@skylogix.com",
+    "source": "LinkedIn",
+    "score": 36,
+    "status": "Converted"
+  },
+  {
+    "id": 53,
+    "name": "Alice Brown",
+    "company": "MedLink",
+    "email": "alice.brown@medlink.com",
+    "source": "Cold Email",
+    "score": 97,
+    "status": "Disqualified"
+  },
+  {
+    "id": 54,
+    "name": "David Wong",
+    "company": "AgriCore",
+    "email": "david.wong@agricore.com",
+    "source": "Website",
+    "score": 85,
+    "status": "Disqualified"
+  },
+  {
+    "id": 55,
+    "name": "Elena Laurent",
+    "company": "GreenWave",
+    "email": "elena.laurent@greenwave.com",
+    "source": "Cold Email",
+    "score": 32,
+    "status": "New"
+  },
+  {
+    "id": 56,
+    "name": "Carla Johnson",
+    "company": "SmartBank",
+    "email": "carla.johnson@smartbank.com",
+    "source": "Website",
+    "score": 60,
+    "status": "Contacted"
+  },
+  {
+    "id": 57,
+    "name": "Quentin Brown",
+    "company": "BuildRight",
+    "email": "quentin.brown@buildright.com",
+    "source": "Conference",
+    "score": 100,
+    "status": "Disqualified"
+  },
+  {
+    "id": 58,
+    "name": "Grace Johnson",
+    "company": "NextGen Solar",
+    "email": "grace.johnson@nextgensolar.com",
+    "source": "Referral",
+    "score": 1,
     "status": "Disqualified"
   },
   {
     "id": 59,
-    "name": "Nicole Barnes",
-    "company": "Williams-Scott",
-    "email": "martinmary@mitchell.com",
-    "source": "Referral",
-    "score": 42,
-    "status": "Contacted"
+    "name": "Rita Petrov",
+    "company": "SkyLogix",
+    "email": "rita.petrov@skylogix.com",
+    "source": "Cold Email",
+    "score": 88,
+    "status": "Disqualified"
   },
   {
     "id": 60,
-    "name": "Joe Mcdonald",
-    "company": "Sparks, Bentley and Clark",
-    "email": "tina80@yahoo.com",
-    "source": "Referral",
+    "name": "Elena Duarte",
+    "company": "AgriCore",
+    "email": "elena.duarte@agricore.com",
+    "source": "Conference",
     "score": 57,
     "status": "Contacted"
   },
   {
     "id": 61,
-    "name": "Richard Patton",
-    "company": "Reyes, Willis and Conner",
-    "email": "yleach@hotmail.com",
-    "source": "Email Campaign",
-    "score": 92,
-    "status": "Disqualified"
-  },
-  {
-    "id": 62,
-    "name": "Jennifer Barker",
-    "company": "Peters, Burch and Jackson",
-    "email": "cbanks@jones.net",
-    "source": "Email Campaign",
-    "score": 68,
+    "name": "Isabella Wilson",
+    "company": "FinTrack",
+    "email": "isabella.wilson@fintrack.com",
+    "source": "Cold Email",
+    "score": 22,
     "status": "Qualified"
   },
   {
-    "id": 63,
-    "name": "Susan Harding",
-    "company": "Andrews Group",
-    "email": "donovanfred@hernandez-solis.net",
-    "source": "LinkedIn",
-    "score": 74,
+    "id": 62,
+    "name": "Paula Singh",
+    "company": "SmartBank",
+    "email": "paula.singh@smartbank.com",
+    "source": "Referral",
+    "score": 96,
     "status": "New"
   },
   {
+    "id": 63,
+    "name": "Oscar Duarte",
+    "company": "PharmaPlus",
+    "email": "oscar.duarte@pharmaplus.com",
+    "source": "Website",
+    "score": 12,
+    "status": "Contacted"
+  },
+  {
     "id": 64,
-    "name": "Alyssa Bell",
-    "company": "Holmes Inc",
-    "email": "michelle84@kirk.com",
-    "source": "Referral",
-    "score": 90,
+    "name": "James Lee",
+    "company": "GreenWave",
+    "email": "james.lee@greenwave.com",
+    "source": "Cold Email",
+    "score": 82,
     "status": "Disqualified"
   },
   {
     "id": 65,
-    "name": "Mario Taylor",
-    "company": "Reynolds-Dyer",
-    "email": "timothycunningham@clayton.org",
-    "source": "Email Campaign",
-    "score": 89,
+    "name": "James Johnson",
+    "company": "GreenWave",
+    "email": "james.johnson@greenwave.com",
+    "source": "Website",
+    "score": 95,
     "status": "Contacted"
   },
   {
     "id": 66,
-    "name": "Mary Hill",
-    "company": "Davis PLC",
-    "email": "matthewbrooks@yahoo.com",
-    "source": "Email Campaign",
-    "score": 79,
-    "status": "Disqualified"
+    "name": "Alice Duarte",
+    "company": "SkyLogix",
+    "email": "alice.duarte@skylogix.com",
+    "source": "Website",
+    "score": 11,
+    "status": "Converted"
   },
   {
     "id": 67,
-    "name": "Gabriel Maldonado DDS",
-    "company": "Gonzales LLC",
-    "email": "william94@gmail.com",
-    "source": "Conference",
-    "score": 85,
-    "status": "Contacted"
+    "name": "Lucas Mendes",
+    "company": "CloudSphere",
+    "email": "lucas.mendes@cloudsphere.com",
+    "source": "LinkedIn",
+    "score": 84,
+    "status": "Disqualified"
   },
   {
     "id": 68,
-    "name": "Sherri Joyce",
-    "company": "Bell and Sons",
-    "email": "byork@yahoo.com",
-    "source": "Cold Call",
-    "score": 33,
+    "name": "Isabella Brown",
+    "company": "CloudSphere",
+    "email": "isabella.brown@cloudsphere.com",
+    "source": "LinkedIn",
+    "score": 86,
     "status": "Disqualified"
   },
   {
     "id": 69,
-    "name": "Kelly Snyder",
-    "company": "Roberts-Johnson",
-    "email": "ashley51@yahoo.com",
-    "source": "Cold Call",
-    "score": 65,
-    "status": "Disqualified"
+    "name": "Lucas Müller",
+    "company": "AutoDrive",
+    "email": "lucas.müller@autodrive.com",
+    "source": "Referral",
+    "score": 41,
+    "status": "New"
   },
   {
     "id": 70,
-    "name": "Christopher Abbott",
-    "company": "Powell-Vaughn",
-    "email": "julie97@hotmail.com",
+    "name": "Grace ONeill",
+    "company": "EcoHome",
+    "email": "grace.oneill@ecohome.com",
     "source": "Referral",
-    "score": 39,
-    "status": "Contacted"
+    "score": 34,
+    "status": "Converted"
   },
   {
     "id": 71,
-    "name": "Gina Ayala",
-    "company": "Kramer-Peterson",
-    "email": "ashley57@gordon.com",
-    "source": "Email Campaign",
-    "score": 53,
-    "status": "Contacted"
-  },
-  {
-    "id": 72,
-    "name": "Jennifer Hernandez",
-    "company": "Wu-Petty",
-    "email": "tmorales@gmail.com",
-    "source": "Conference",
-    "score": 78,
-    "status": "Disqualified"
-  },
-  {
-    "id": 73,
-    "name": "Beth Acosta",
-    "company": "Jones, Nelson and Kennedy",
-    "email": "andradeautumn@gmail.com",
-    "source": "Referral",
-    "score": 55,
-    "status": "Qualified"
-  },
-  {
-    "id": 74,
-    "name": "Beverly Smith",
-    "company": "King Ltd",
-    "email": "cwebb@hotmail.com",
-    "source": "Referral",
-    "score": 93,
-    "status": "New"
-  },
-  {
-    "id": 75,
-    "name": "Samuel Jones",
-    "company": "Baker Inc",
-    "email": "samantharodriguez@yahoo.com",
-    "source": "Referral",
-    "score": 60,
-    "status": "Contacted"
-  },
-  {
-    "id": 76,
-    "name": "Cody Brown",
-    "company": "Williams LLC",
-    "email": "ewatson@arnold.net",
-    "source": "LinkedIn",
-    "score": 50,
-    "status": "Contacted"
-  },
-  {
-    "id": 77,
-    "name": "Dana Decker",
-    "company": "Johnson, Love and Hanson",
-    "email": "bcarter@yahoo.com",
-    "source": "Cold Call",
-    "score": 35,
-    "status": "Qualified"
-  },
-  {
-    "id": 78,
-    "name": "Anthony Fisher",
-    "company": "Hahn Ltd",
-    "email": "ericcontreras@yahoo.com",
+    "name": "Alice Petrov",
+    "company": "GreenWave",
+    "email": "alice.petrov@greenwave.com",
     "source": "Website",
-    "score": 53,
-    "status": "Disqualified"
-  },
-  {
-    "id": 79,
-    "name": "Mr. Jason Harrison DVM",
-    "company": "Taylor LLC",
-    "email": "heathermartin@gmail.com",
-    "source": "Website",
-    "score": 87,
-    "status": "Qualified"
-  },
-  {
-    "id": 80,
-    "name": "Joseph Rodriguez",
-    "company": "Smith-Rodriguez",
-    "email": "trevorlawrence@yahoo.com",
-    "source": "Referral",
-    "score": 76,
-    "status": "Contacted"
-  },
-  {
-    "id": 81,
-    "name": "Jessica Robinson",
-    "company": "Mora, Houston and Kelly",
-    "email": "davischristine@yahoo.com",
-    "source": "Website",
-    "score": 35,
-    "status": "Contacted"
-  },
-  {
-    "id": 82,
-    "name": "Trevor Aguilar",
-    "company": "Morrow-Mcdonald",
-    "email": "toddcollier@yahoo.com",
-    "source": "Website",
-    "score": 36,
-    "status": "Contacted"
-  },
-  {
-    "id": 83,
-    "name": "Erik Williams",
-    "company": "Wilson, Hampton and Wolfe",
-    "email": "tsmith@hotmail.com",
-    "source": "Website",
-    "score": 69,
-    "status": "Qualified"
-  },
-  {
-    "id": 84,
-    "name": "Edward Harris",
-    "company": "Bender PLC",
-    "email": "rbrooks@hotmail.com",
-    "source": "Website",
-    "score": 46,
-    "status": "New"
-  },
-  {
-    "id": 85,
-    "name": "Dana Smith",
-    "company": "Mccoy, Jenkins and Brennan",
-    "email": "michael16@brown.biz",
-    "source": "Email Campaign",
     "score": 90,
     "status": "Qualified"
   },
   {
-    "id": 86,
-    "name": "Brittney Mckay",
-    "company": "Murray-Burnett",
-    "email": "marcus24@yahoo.com",
+    "id": 72,
+    "name": "Nina Silva",
+    "company": "SkyLogix",
+    "email": "nina.silva@skylogix.com",
+    "source": "Conference",
+    "score": 57,
+    "status": "Contacted"
+  },
+  {
+    "id": 73,
+    "name": "Quentin Johnson",
+    "company": "PharmaPlus",
+    "email": "quentin.johnson@pharmaplus.com",
     "source": "Referral",
-    "score": 86,
+    "score": 53,
+    "status": "Disqualified"
+  },
+  {
+    "id": 74,
+    "name": "Oscar Clark",
+    "company": "PharmaPlus",
+    "email": "oscar.clark@pharmaplus.com",
+    "source": "Referral",
+    "score": 100,
+    "status": "Disqualified"
+  },
+  {
+    "id": 75,
+    "name": "Brian Mendes",
+    "company": "CloudSphere",
+    "email": "brian.mendes@cloudsphere.com",
+    "source": "Conference",
+    "score": 88,
+    "status": "Qualified"
+  },
+  {
+    "id": 76,
+    "name": "Karen Clark",
+    "company": "BluePeak",
+    "email": "karen.clark@bluepeak.com",
+    "source": "LinkedIn",
+    "score": 80,
+    "status": "Disqualified"
+  },
+  {
+    "id": 77,
+    "name": "Paula Rossi",
+    "company": "AgroMax",
+    "email": "paula.rossi@agromax.com",
+    "source": "Conference",
+    "score": 55,
+    "status": "Disqualified"
+  },
+  {
+    "id": 78,
+    "name": "Alice Brown",
+    "company": "TechNova",
+    "email": "alice.brown@technova.com",
+    "source": "Cold Email",
+    "score": 70,
+    "status": "Disqualified"
+  },
+  {
+    "id": 79,
+    "name": "Elena Johnson",
+    "company": "BluePeak",
+    "email": "elena.johnson@bluepeak.com",
+    "source": "Cold Email",
+    "score": 79,
+    "status": "Contacted"
+  },
+  {
+    "id": 80,
+    "name": "Tara Singh",
+    "company": "BioLife",
+    "email": "tara.singh@biolife.com",
+    "source": "Website",
+    "score": 81,
+    "status": "Contacted"
+  },
+  {
+    "id": 81,
+    "name": "Samuel Silva",
+    "company": "RoboWorks",
+    "email": "samuel.silva@roboworks.com",
+    "source": "Referral",
+    "score": 79,
     "status": "New"
   },
   {
-    "id": 87,
-    "name": "Frank Hernandez",
-    "company": "Smith, Cervantes and Shelton",
-    "email": "imason@oneill-brown.com",
+    "id": 82,
+    "name": "Tara Singh",
+    "company": "BuildRight",
+    "email": "tara.singh@buildright.com",
+    "source": "LinkedIn",
+    "score": 17,
+    "status": "Converted"
+  },
+  {
+    "id": 83,
+    "name": "Elena Wilson",
+    "company": "AgriCore",
+    "email": "elena.wilson@agricore.com",
     "source": "Referral",
-    "score": 35,
+    "score": 87,
     "status": "Disqualified"
+  },
+  {
+    "id": 84,
+    "name": "David Gomez",
+    "company": "BluePeak",
+    "email": "david.gomez@bluepeak.com",
+    "source": "Website",
+    "score": 33,
+    "status": "New"
+  },
+  {
+    "id": 85,
+    "name": "Felipe Silva",
+    "company": "PharmaPlus",
+    "email": "felipe.silva@pharmaplus.com",
+    "source": "Cold Email",
+    "score": 84,
+    "status": "Converted"
+  },
+  {
+    "id": 86,
+    "name": "James Laurent",
+    "company": "BluePeak",
+    "email": "james.laurent@bluepeak.com",
+    "source": "LinkedIn",
+    "score": 26,
+    "status": "Converted"
+  },
+  {
+    "id": 87,
+    "name": "David Laurent",
+    "company": "BluePeak",
+    "email": "david.laurent@bluepeak.com",
+    "source": "Website",
+    "score": 36,
+    "status": "New"
   },
   {
     "id": 88,
-    "name": "Paul Mejia",
-    "company": "Singleton, Edwards and Good",
-    "email": "parkerdavid@velasquez-vega.org",
-    "source": "Website",
-    "score": 81,
-    "status": "Disqualified"
+    "name": "Carla Costa",
+    "company": "EcoHome",
+    "email": "carla.costa@ecohome.com",
+    "source": "Conference",
+    "score": 10,
+    "status": "Contacted"
   },
   {
     "id": 89,
-    "name": "Daniel Jensen",
-    "company": "Young, Harris and Graves",
-    "email": "daniel03@johnson.info",
-    "source": "Website",
-    "score": 33,
-    "status": "Disqualified"
+    "name": "Karen Costa",
+    "company": "AgroMax",
+    "email": "karen.costa@agromax.com",
+    "source": "LinkedIn",
+    "score": 29,
+    "status": "New"
   },
   {
     "id": 90,
-    "name": "Robert Thomas",
-    "company": "Thompson, Miller and Alexander",
-    "email": "joshua36@sharp.biz",
-    "source": "LinkedIn",
-    "score": 56,
+    "name": "Oscar Zhang",
+    "company": "BuildRight",
+    "email": "oscar.zhang@buildright.com",
+    "source": "Website",
+    "score": 77,
     "status": "Contacted"
   },
   {
     "id": 91,
-    "name": "Walter Conrad",
-    "company": "Sweeney Group",
-    "email": "perkinsjasmin@hotmail.com",
-    "source": "LinkedIn",
-    "score": 71,
-    "status": "Qualified"
+    "name": "Lucas Clark",
+    "company": "MediCore",
+    "email": "lucas.clark@medicore.com",
+    "source": "Website",
+    "score": 28,
+    "status": "Converted"
   },
   {
     "id": 92,
-    "name": "Mr. Jack Bishop",
-    "company": "Cooper, Norman and Flowers",
-    "email": "heather49@gmail.com",
-    "source": "Cold Call",
-    "score": 89,
-    "status": "Disqualified"
+    "name": "Carla Singh",
+    "company": "BuildRight",
+    "email": "carla.singh@buildright.com",
+    "source": "Conference",
+    "score": 88,
+    "status": "Converted"
   },
   {
     "id": 93,
-    "name": "Angela Logan",
-    "company": "Smith Group",
-    "email": "rogersalexander@gmail.com",
-    "source": "Cold Call",
-    "score": 46,
-    "status": "Disqualified"
+    "name": "Isabella Clark",
+    "company": "NextGen Solar",
+    "email": "isabella.clark@nextgensolar.com",
+    "source": "Website",
+    "score": 41,
+    "status": "New"
   },
   {
     "id": 94,
-    "name": "Dana Gonzalez",
-    "company": "Ward LLC",
-    "email": "jacklang@montgomery-garcia.com",
+    "name": "Henry Rossi",
+    "company": "AutoDrive",
+    "email": "henry.rossi@autodrive.com",
     "source": "LinkedIn",
-    "score": 72,
-    "status": "Disqualified"
+    "score": 86,
+    "status": "Qualified"
   },
   {
     "id": 95,
-    "name": "Samantha Soto",
-    "company": "Patterson-Payne",
-    "email": "ashley79@robinson.biz",
-    "source": "Email Campaign",
-    "score": 97,
+    "name": "Lucas Rossi",
+    "company": "NextGen Solar",
+    "email": "lucas.rossi@nextgensolar.com",
+    "source": "Website",
+    "score": 41,
     "status": "Qualified"
   },
   {
     "id": 96,
-    "name": "Joshua Franklin",
-    "company": "Adams Ltd",
-    "email": "madison15@yahoo.com",
-    "source": "Email Campaign",
-    "score": 87,
+    "name": "Grace ONeill",
+    "company": "SkyLogix",
+    "email": "grace.oneill@skylogix.com",
+    "source": "Website",
+    "score": 28,
     "status": "New"
   },
   {
     "id": 97,
-    "name": "Christopher Johnson",
-    "company": "Davis Ltd",
-    "email": "vtaylor@stanley.com",
-    "source": "Referral",
-    "score": 50,
+    "name": "Nina Laurent",
+    "company": "FinEdge",
+    "email": "nina.laurent@finedge.com",
+    "source": "Conference",
+    "score": 1,
     "status": "Disqualified"
   },
   {
     "id": 98,
-    "name": "Jack Velazquez",
-    "company": "Walker, Rivers and Ramirez",
-    "email": "gsmith@gmail.com",
-    "source": "Referral",
-    "score": 73,
-    "status": "New"
+    "name": "Samuel Wong",
+    "company": "SmartBank",
+    "email": "samuel.wong@smartbank.com",
+    "source": "Cold Email",
+    "score": 78,
+    "status": "Converted"
   },
   {
     "id": 99,
-    "name": "Michelle Reynolds",
-    "company": "Thompson, Todd and Acevedo",
-    "email": "zmartin@johnson-bowman.com",
-    "source": "Conference",
-    "score": 34,
-    "status": "Contacted"
+    "name": "Samuel Singh",
+    "company": "BuildRight",
+    "email": "samuel.singh@buildright.com",
+    "source": "Cold Email",
+    "score": 42,
+    "status": "New"
   },
   {
     "id": 100,
-    "name": "Mark Anderson",
-    "company": "Gallagher LLC",
-    "email": "morgancabrera@ellis.com",
-    "source": "Referral",
-    "score": 45,
-    "status": "New"
+    "name": "James Wong",
+    "company": "EcoHome",
+    "email": "james.wong@ecohome.com",
+    "source": "Conference",
+    "score": 80,
+    "status": "Qualified"
   }
 ]
