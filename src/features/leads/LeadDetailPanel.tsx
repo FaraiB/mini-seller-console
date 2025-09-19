@@ -1,73 +1,95 @@
-import { useState, useEffect } from "react";
 import { type Lead } from "./types";
+import { useEffect, useState } from "react";
 
 type Props = {
   lead: Lead | null;
   onClose: () => void;
-  onSave: (updatedLead: Lead) => void;
+  onSave: (updated: Lead) => void;
 };
 
 export default function LeadDetailPanel({ lead, onClose, onSave }: Props) {
-  const [email, setEmail] = useState(lead?.email ?? "");
-  const [status, setStatus] = useState<Lead["status"]>(lead?.status ?? "New");
+  const [email, setEmail] = useState("");
+  const [status, setStatus] = useState<Lead["status"]>("New");
   const [error, setError] = useState("");
+
+  useEffect(() => {
+    if (lead) {
+      setEmail(lead.email);
+      setStatus(lead.status);
+    }
+  }, [lead]);
+
+  useEffect(() => {
+    const handleEsc = (e: KeyboardEvent) => {
+      if (e.key === "Escape") onClose();
+    };
+    window.addEventListener("keydown", handleEsc);
+    return () => window.removeEventListener("keydown", handleEsc);
+  }, [onClose]);
 
   if (!lead) return null;
 
-  const handleSave = () => {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
-      setError("Please enter a valid email address.");
+  const validateAndSave = () => {
+    if (!/\S+@\S+\.\S+/.test(email)) {
+      setError("Invalid email format");
       return;
     }
-
+    setError("");
     onSave({ ...lead, email, status });
-    onClose();
   };
 
   return (
-    <div className="fixed inset-0 flex justify-end">
-      {/*backdrop*/}
-      <div className="fixed inset-0 bg-gray-50/50" onClick={onClose}></div>
-      {/*panel*/}
-      <div className="relative w-96 bg-white shadow-lg p-6 overflow-y-auto z-10">
-        <h2 className="text-lg font-bold mb-4">Edit Lead</h2>
+    <div className="fixed inset-0 flex justify-end z-50">
+      {/* Backdrop */}
+      <div className="absolute inset-0 bg-black/50" onClick={onClose} />
 
+      {/* Panel */}
+      <div className="relative bg-white w-96 h-full shadow-xl transform transition-transform translate-x-0 p-6">
+        {/* Header */}
+        <div className="flex justify-between items-center mb-4">
+          <h2 className="text-xl font-semibold">{lead.name}</h2>
+          <button
+            onClick={onClose}
+            className="text-gray-500 hover:text-gray-800"
+          >
+            ✕
+          </button>
+        </div>
+
+        {/* Form Fields */}
         <div className="mb-4">
-          <label className="block text-sm font-medium mb-1">Email</label>
+          <label className="block text-sm font-medium">Email</label>
           <input
-            type="email"
+            className="border rounded px-2 py-1 w-full"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full border px-2 py-1 rounded"
           />
-          {error && <p className="text-red-600 text-sm mt-1">{error}</p>}
         </div>
+
         <div className="mb-4">
-          <label className="block text-sm font-medium mb-1">Stauts</label>
+          <label className="block text-sm font-medium">Status</label>
           <select
+            className="border rounded px-2 py-1 w-full"
             value={status}
             onChange={(e) => setStatus(e.target.value as Lead["status"])}
-            className="w-full border px-2 py-1 rounded"
           >
-            <option value="New">New</option>
-            <option value="Contacted">Contacted</option>
-            <option value="Qualified">Qualified</option>
-            <option value="Disqualified">Disqualified</option>
-            <option value="Converted">Converted</option>
+            <option>New</option>
+            <option>Contacted</option>
+            <option>Qualified</option>
+            <option>Disqualified</option>
+            <option>Converted</option>
           </select>
         </div>
 
+        {error && <p className="text-red-500 text-sm mb-2">{error}</p>}
+
         <div className="flex justify-end space-x-2">
-          <button
-            onClick={onClose}
-            className="px-3 py-1 border rounded text-gray-600 hover:bg-gray-100"
-          >
+          <button className="px-3 py-1 border rounded" onClick={onClose}>
             Cancel
           </button>
           <button
-            onClick={handleSave}
-            className="px-3 py-1 bg-blue-600 text-white hover:bg-blue-700"
+            className="px-3 py-1 bg-blue-600 text-white rounded"
+            onClick={validateAndSave}
           >
             Save
           </button>
