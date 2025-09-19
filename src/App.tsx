@@ -11,14 +11,29 @@ function App() {
     "opportunities",
     []
   );
+
+  const tabs = ["Leads", "Opportunities"] as const;
+
   return (
     <DashboardLayout>
-      <div className="mb-4">
-        <button onClick={() => setTab("Leads")} className="mr-20">
-          Leads
-        </button>
-        <button onClick={() => setTab("Opportunities")}>Opportunities</button>
+      {/* Tabs */}
+      <div className="mb-6 flex border-b border-gray-300">
+        {tabs.map((t) => (
+          <button
+            key={t}
+            onClick={() => setTab(t)}
+            className={`px-4 py-2 -mb-px font-medium border-b-2 transition-colors ${
+              tab === t
+                ? "border-blue-600 text-blue-600"
+                : "border-transparent text-gray-600 hover:text-gray-800 hover:border-gray-300"
+            }`}
+          >
+            {t}
+          </button>
+        ))}
       </div>
+
+      {/* Tab content */}
       {tab === "Leads" ? (
         <LeadsPage setOpportunities={setOpportunities} />
       ) : (

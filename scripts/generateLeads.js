@@ -68,7 +68,7 @@ const companies = [
   "SkyLogix",
 ];
 const sources = ["Website", "Referral", "Conference", "LinkedIn", "Cold Email"];
-const statuses = ["New", "Qualified", "Contacted", "Converted", "Disqualified"];
+const statuses = ["New", "Qualified", "Contacted", "Disqualified"];
 
 function getRandom(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
@@ -88,6 +88,7 @@ const leads = Array.from({ length: 100 }, (_, i) => {
     source: getRandom(sources),
     score: Math.floor(Math.random() * 100) + 1,
     status: getRandom(statuses),
+    amount: Math.floor(Math.random() * 50000) + 1000,
   };
 });
 

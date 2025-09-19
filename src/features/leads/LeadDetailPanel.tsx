@@ -46,11 +46,11 @@ export default function LeadDetailPanel({ lead, onClose, onSave }: Props) {
       {/* Panel */}
       <div className="relative bg-white w-96 h-full shadow-xl transform transition-transform translate-x-0 p-6">
         {/* Header */}
-        <div className="flex justify-between items-center mb-4">
-          <h2 className="text-xl font-semibold">{lead.name}</h2>
+        <div className="flex justify-between items-center mb-6">
+          <h2 className="text-xl text-gray-900 font-bold">{lead.name}</h2>
           <button
             onClick={onClose}
-            className="text-gray-500 hover:text-gray-800"
+            className="text-gray-400 hover:text-gray-600 transition-colors"
           >
             ✕
           </button>
@@ -58,18 +58,22 @@ export default function LeadDetailPanel({ lead, onClose, onSave }: Props) {
 
         {/* Form Fields */}
         <div className="mb-4">
-          <label className="block text-sm font-medium">Email</label>
+          <label className="block text-sm text-gray-700 font-medium mb-1">
+            Email
+          </label>
           <input
-            className="border rounded px-2 py-1 w-full"
+            className="border border-gray-300 rounded px-3 py-2 w-full focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
 
-        <div className="mb-4">
-          <label className="block text-sm font-medium">Status</label>
+        <div className="mb-6">
+          <label className="block text-sm text-gray-700 font-medium mb-1">
+            Status
+          </label>
           <select
-            className="border rounded px-2 py-1 w-full"
+            className="border border-gray-300 rounded px-3 py-2 w-full focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
             value={status}
             onChange={(e) => setStatus(e.target.value as Lead["status"])}
           >
@@ -81,14 +85,21 @@ export default function LeadDetailPanel({ lead, onClose, onSave }: Props) {
           </select>
         </div>
 
-        {error && <p className="text-red-500 text-sm mb-2">{error}</p>}
+        {error && (
+          <p className="text-red-600 text-sm mb-4 bg-red-50 border border-red-200 rounded px-3 py-2">
+            {error}
+          </p>
+        )}
 
-        <div className="flex justify-end space-x-2">
-          <button className="px-3 py-1 border rounded" onClick={onClose}>
+        <div className="flex justify-end space-x-3">
+          <button
+            className="px-4 py-2 rounded border border-gray-300 bg-white text-gray-700 hover:bg-gray-50 transition-colors"
+            onClick={onClose}
+          >
             Cancel
           </button>
           <button
-            className="px-3 py-1 bg-blue-600 text-white rounded"
+            className="px-4 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-700 transition-colors"
             onClick={validateAndSave}
           >
             Save

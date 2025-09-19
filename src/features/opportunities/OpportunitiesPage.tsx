@@ -6,40 +6,65 @@ type Props = {
 
 export default function OpportunitiesPage({ opportunities }: Props) {
   return (
-    <div className="p-4">
-      <h1 className="text-xl font-bold mb-4">Opportunities</h1>
+    <>
+      {/* Page Title */}
+      <h1 className="text-3xl font-bold text-gray-900 mb-6">Opportunities</h1>
 
-      {opportunities.length === 0 ? (
-        <p className="text-gray-500">No opportunities yet.</p>
-      ) : (
-        <div className="overflow-x-auto">
-          <table className="min-w-full border border-gray-200">
-            <thead className="bg-gray-100">
+      <div className="overflow-x-auto rounded-lg shadow border border-gray-300">
+        {opportunities.length === 0 ? (
+          <div className="p-6 text-center text-gray-500">
+            No opportunities available.
+          </div>
+        ) : (
+          <table className="min-w-full border-collapse">
+            <thead className="bg-gray-800 text-white">
               <tr>
-                <th className="px-4 py-2 text-left">ID</th>
-                <th className="px-4 py-2 text-left">Name</th>
-                <th className="px-4 py-2 text-left">Stage</th>
-                <th className="px-4 py-2 text-left">Account</th>
-                <th className="px-4 py-2 text-left">Amount</th>
+                <th className="px-4 py-3 text-left font-semibold border-b border-gray-600">
+                  ID
+                </th>
+                <th className="px-4 py-3 text-left font-semibold border-b border-gray-600">
+                  Name
+                </th>
+                <th className="px-4 py-3 text-left font-semibold border-b border-gray-600">
+                  Stage
+                </th>
+                <th className="px-4 py-3 text-left font-semibold border-b border-gray-600">
+                  Amount
+                </th>
+                <th className="px-4 py-3 text-left font-semibold border-b border-gray-600">
+                  Account Name
+                </th>
               </tr>
             </thead>
             <tbody>
-              {opportunities.map((opp) => (
+              {opportunities.map((opp, idx) => (
                 <tr
                   key={opp.id}
-                  className="border-t hover:bg-gray-50 transition-colors"
+                  className={`${
+                    idx % 2 === 0 ? "bg-gray-50" : "bg-gray-100"
+                  } hover:bg-gray-200 transition-colors`}
                 >
-                  <td className="px-4 py-2">{opp.id}</td>
-                  <td className="px-4 py-2">{opp.name}</td>
-                  <td className="px-4 py-2">{opp.stage}</td>
-                  <td className="px-4 py-2">{opp.accountName}</td>
-                  <td className="px-4 py-2">{opp.amount ?? "-"}</td>
+                  <td className="px-4 py-3 border-b border-gray-300">
+                    {opp.id}
+                  </td>
+                  <td className="px-4 py-3 border-b border-gray-300">
+                    {opp.name}
+                  </td>
+                  <td className="px-4 py-3 border-b border-gray-300">
+                    {opp.stage}
+                  </td>
+                  <td className="px-4 py-3 border-b border-gray-300">
+                    {`R$ ${opp.amount}`}
+                  </td>
+                  <td className="px-4 py-3 border-b border-gray-300">
+                    {opp.accountName}
+                  </td>
                 </tr>
               ))}
             </tbody>
           </table>
-        </div>
-      )}
-    </div>
+        )}
+      </div>
+    </>
   );
 }
