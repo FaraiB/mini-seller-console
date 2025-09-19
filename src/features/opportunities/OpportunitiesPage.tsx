@@ -2,16 +2,28 @@ import { type Opportunity } from "./types";
 
 type Props = {
   opportunities: Opportunity[];
+  loading?: boolean;
+  error?: string | null;
 };
 
-export default function OpportunitiesPage({ opportunities }: Props) {
+export default function OpportunitiesPage({
+  opportunities,
+  loading = false,
+  error = null,
+}: Props) {
   return (
     <>
       {/* Page Title */}
       <h1 className="text-3xl font-bold text-gray-900 mb-6">Opportunities</h1>
 
       <div className="overflow-x-auto rounded-lg shadow border border-gray-300">
-        {opportunities.length === 0 ? (
+        {loading ? (
+          <div className="p-6 flex justify-center items-center">
+            <div className="w-10 h-10 border-4 border-gray-300 border-t-indigo-600 rounded-full animate-spin"></div>
+          </div>
+        ) : error ? (
+          <div className="p-6 text-center text-red-500">{error}</div>
+        ) : opportunities.length === 0 ? (
           <div className="p-6 text-center text-gray-500">
             No opportunities available.
           </div>
@@ -53,9 +65,7 @@ export default function OpportunitiesPage({ opportunities }: Props) {
                   <td className="px-4 py-3 border-b border-gray-300">
                     {opp.stage}
                   </td>
-                  <td className="px-4 py-3 border-b border-gray-300">
-                    {`R$ ${opp.amount}`}
-                  </td>
+                  <td className="px-4 py-3 border-b border-gray-300">{`R$ ${opp.amount}`}</td>
                   <td className="px-4 py-3 border-b border-gray-300">
                     {opp.accountName}
                   </td>

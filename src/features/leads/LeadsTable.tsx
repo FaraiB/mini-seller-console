@@ -16,7 +16,9 @@ export default function LeadsTable({
   return (
     <div className="overflow-x-auto rounded-lg shadow border border-gray-300">
       {loading ? (
-        <div className="p-6 text-center text-gray-500">Loading leads...</div>
+        <div className="p-6 flex justify-center items-center">
+          <div className="w-10 h-10 border-4 border-gray-300 border-t-indigo-600 rounded-full animate-spin"></div>
+        </div>
       ) : leads.length === 0 ? (
         <div className="p-6 text-center text-gray-500">
           No leads match your search / filters.
@@ -59,6 +61,7 @@ export default function LeadsTable({
                   idx % 2 === 0 ? "bg-gray-50" : "bg-gray-100"
                 } hover:bg-gray-200 transition-colors`}
               >
+                {/* Table cells */}
                 <td className="px-4 py-3 border-b border-gray-300">
                   {lead.id}
                 </td>
@@ -106,13 +109,11 @@ export default function LeadsTable({
                 </td>
                 <td className="px-4 py-3 border-b border-gray-300 flex flex-col sm:flex-row gap-2">
                   <button
-                    className="px-3 py-1 text-sm border border-gray-400 rounded 
-             hover:bg-gray-300 hover:shadow-sm transition-all"
+                    className="px-3 py-1 text-sm border border-gray-400 rounded hover:bg-gray-300 hover:shadow-sm transition-all"
                     onClick={() => onEdit(lead)}
                   >
                     Edit
                   </button>
-
                   <button
                     className="px-3 py-1 text-sm bg-indigo-600 text-white rounded hover:bg-indigo-700 transition-colors"
                     onClick={() => onConvert(lead)}

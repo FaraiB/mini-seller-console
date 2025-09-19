@@ -1,69 +1,139 @@
-# React + TypeScript + Vite
+Mini Seller Console
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple CRM-like web app for managing leads and converting them into opportunities. Built with React, Vite, and Tailwind CSS, the app provides a lightweight interface for triaging leads, editing details, and generating opportunities.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Leads Management:
 
-## Expanding the ESLint configuration
+View, search, filter, and sort leads.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Edit lead details in a slide-over panel.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Convert leads into opportunities.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+Opportunities Table:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Displays converted leads with ID, Name, Stage, Amount, and Account Name.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Amounts are randomly generated and hardcoded for demonstration.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Persistence:
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Filters, search queries, and sort order persist in local storage.
+
+Responsive Design:
+
+Fully responsive layout.
+
+Tables support horizontal scroll on mobile due to complexity.
+
+Loading & Error States:
+
+Simulated latency with a timeout to demonstrate loading states.
+
+Error handling for failed lead processing.
+
+Scripts:
+
+A script is included to generate leads in src/data/leads.json.
+
+Each lead optionally includes a random amount to simulate real-world opportunities.
+
+Architectural Choices
+
+React + Vite: Fast development and hot reload with Vite.
+
+Tailwind CSS: Utility-first styling for responsive and sleek UI.
+
+Local Storage Hooks: Persist UI state (filters, search, sort) across sessions.
+
+Slide-over Panel: Non-intrusive edit form inspired by lead detail panels.
+
+Horizontal Scroll for Tables: Simplest solution for mobile responsiveness while maintaining readability of complex tables.
+
+Randomized Amounts: For opportunities, amounts are randomly generated to simulate real-world scenarios.
+
+Folder Structure
+src/
+├─ data/
+│ └─ leads.json
+├─ features/
+│ ├─ leads/
+│ │ ├─ LeadDetailPanel.tsx
+│ │ ├─ LeadsPage.tsx
+│ │ └─ LeadsTable.tsx
+│ ├─ opportunities/
+│ │ ├─ OpportunitiesPage.tsx
+│ │ └─ types.ts
+├─ hooks/
+│ └─ useLocalStorage.ts
+├─ layouts/
+│ └─ DashboardLayout.tsx
+└─ App.tsx
+
+Getting Started
+Prerequisites
+
+Node.js >= 18
+
+npm or yarn
+
+Installation
+
+# Clone the repository
+
+git clone <repository-url>
+cd mini-seller-console
+
+# Install dependencies
+
+npm install
+
+# or
+
+yarn
+
+Running the App
+
+# Start the development server
+
+npm run dev
+
+# or
+
+yarn dev
+
+Open http://localhost:5173
+in your browser to view the app.
+
+Generating Leads
+
+A script is included to populate src/data/leads.json with sample leads.
+Run the script (if included in package.json):
+
+npm run generate-leads
+
+# or
+
+yarn generate-leads
+
+This will create a list of leads with randomized scores and amounts.
+
+Notes
+
+The amount field for leads is optional; when converted to opportunities, it is randomly assigned.
+
+A simulated delay is used to showcase loading states.
+
+Due to table complexity, horizontal scrolling is enabled on smaller screens.
+
+Technologies Used
+
+React for UI development
+
+Vite for fast build & dev server
+
+Tailwind CSS for styling
+
+TypeScript for type safety

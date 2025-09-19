@@ -6,4 +6,5 @@ export interface Lead {
   source: string;
   score: number;
   status: "New" | "Contacted" | "Qualified" | "Disqualified" | "Converted";
+  amount?: number;
 }

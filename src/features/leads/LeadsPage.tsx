@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import LeadsTable from "./LeadsTable";
 import LeadDetailPanel from "./LeadDetailPanel";
 import { type Lead } from "./types";
@@ -31,7 +31,14 @@ export default function LeadsPage({
   );
 
   const [selectedLead, setSelectedLead] = useState<Lead | null>(null);
+  const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+
+  // Simulate loading
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 1000); // 1s delay
+    return () => clearTimeout(timer);
+  }, []);
 
   // Compute displayed leads
   const filteredLeads = useMemo(() => {
@@ -114,12 +121,19 @@ export default function LeadsPage({
         </button>
       </div>
 
-      <LeadsTable
-        leads={filteredLeads}
-        onEdit={handleEdit}
-        onConvert={handleConvert}
-      />
+      {/* Leads Table */}
+      {error ? (
+        <div className="p-6 text-center text-red-600 font-medium">{error}</div>
+      ) : (
+        <LeadsTable
+          leads={filteredLeads}
+          onEdit={handleEdit}
+          onConvert={handleConvert}
+          loading={loading}
+        />
+      )}
 
+      {/* Lead Detail Panel */}
       <LeadDetailPanel
         lead={selectedLead}
         onClose={() => setSelectedLead(null)}
